@@ -117,8 +117,16 @@
               "devServerTarget": "DeliriumRaidTool:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "DeliriumRaidTool"
+    }
+  },
+  "defaultProject": "DeliriumRaidTool",
+  "cli": {
+    "analytics": false
+  }
 }
