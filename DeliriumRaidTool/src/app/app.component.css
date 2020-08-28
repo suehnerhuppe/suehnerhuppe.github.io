@@ -1,11 +1,12 @@
-.main {
-  height: 100%;
-  width: 100%;
-  background-image: url("src/assets/bgtile.png");
-  background-repeat: repeat;
-}
-
 h1 {
   color: white;
   font-family: Arial;
+}
+
+span {
+  margin: 15px;
+}
+
+.full {
+  width: 100%;
 }

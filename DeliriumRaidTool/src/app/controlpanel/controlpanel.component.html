@@ -1,0 +1,12 @@
+<div class="card card-block">
+  <ul class="nav nav-pills nav-fill">
+    <a class="nav-item nav-link active" (click)="onClick('ENCOUNTERS')" [class.active]="selectedSite === 'ENCOUNTERS'">Encounters</a>
+    <a class="nav-item nav-link active" (click)="onClick('PLAYERS')" [class.active]="selectedSite === 'PLAYERS'">Players</a>
+  </ul>
+  <div class="row">
+    <div class="col-md-12">
+      <app-players *ngIf="selectedSite === 'PLAYERS'"></app-players>
+      <app-encounter *ngIf="selectedSite === 'ENCOUNTERS'"></app-encounter>
+    </div>
+  </div>
+</div>
