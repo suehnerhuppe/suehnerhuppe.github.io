@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { ControlpanelComponent } from './controlpanel/controlpanel.component';
 import { EncounterComponent } from './encounter/encounter.component';
 import { PlayersComponent } from './players/players.component';
+import { TopnavComponent } from './topnav/topnav.component';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ControlpanelComponent,
     EncounterComponent,
-    PlayersComponent
+    PlayersComponent,
+    TopnavComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,

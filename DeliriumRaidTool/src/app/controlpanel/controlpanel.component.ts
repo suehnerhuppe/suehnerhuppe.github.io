@@ -12,11 +12,16 @@ export class ControlpanelComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.selectedSite = 'ENCOUNTERS';
+    console.log(location.pathname);
+    this.selectedSite = location.pathname;
   }
 
   onClick(site: string): void {
     this.selectedSite = site;
+  }
+
+  getLocation(): string {
+    return location.pathname;
   }
 
 }

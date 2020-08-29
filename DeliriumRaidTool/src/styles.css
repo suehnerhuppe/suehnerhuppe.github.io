@@ -1,9 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 html, body, app-root {
+  font-family: Lato;
   display: flex;
   height: 100%;
   width: 100%;
   margin: 0;
   background-image: url("src/assets/bgtile.png");
   background-repeat: repeat;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url("assets/Lato/Lato-Black.ttf") format('truetype');
+  font-weight: bold;
 }
