@@ -1,4 +1,4 @@
-app-root,body,html{display:flex;height:100%;width:100%;margin:0;background-image:url(bgtile.ae98d3dcab6c1fe41cf9.png);background-repeat:repeat}
+app-root,body,html{font-family:Lato;display:flex;height:100%;width:100%;margin:0;background-image:url(bgtile.ae98d3dcab6c1fe41cf9.png);background-repeat:repeat}@font-face{font-family:Lato;src:url(Lato-Black.0b51cf32bbc2d8b8d840.ttf) format("truetype");font-weight:700}
 
 /*!
  * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
