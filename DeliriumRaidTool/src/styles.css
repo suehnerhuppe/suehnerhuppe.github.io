@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
 html, body, app-root {
   font-family: Lato;
   display: flex;
@@ -14,3 +16,11 @@ html, body, app-root {
   src: url("assets/Lato/Lato-Black.ttf") format('truetype');
   font-weight: bold;
 }
+
+
+html, body {
+  height: 100%;
+  --primary-color: #9451ff;
+  --secondary-color: white;
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

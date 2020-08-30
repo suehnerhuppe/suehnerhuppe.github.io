@@ -9,3 +9,10 @@ span {
 .full {
   width: 100%;
 }
+
+.container {
+  display: grid;
+  height: 250px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}

@@ -8,6 +8,10 @@ import { EncounterComponent } from './encounter/encounter.component';
 import { PlayersComponent } from './players/players.component';
 import { TopnavComponent } from './topnav/topnav.component';
 import { NewsComponent } from './news/news.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { MatTabsModule} from '@angular/material/tabs';
+import {ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,11 +20,15 @@ import { NewsComponent } from './news/news.component';
     EncounterComponent,
     PlayersComponent,
     TopnavComponent,
-    NewsComponent
+    NewsComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NoopAnimationsModule,
+    MatTabsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

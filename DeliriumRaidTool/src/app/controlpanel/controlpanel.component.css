@@ -1,0 +1,27 @@
+.mat-tab-link {
+  opacity: 1!important;
+  width: 50%;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.mat-tab-label-active {
+  color: var(--secondary-color) !important;
+  background-color: var(--primary-color);
+}
+
+.mat-tab-link:visited, .mat-tab-link:focus, .mat-tab-link:hover{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar,.mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color:var(--primary-color);
+  height: 0px;
+}
+
+.mat-tab-nav-bar {
+  box-shadow: none;
+  border-bottom: 5px solid  var(--primary-color) !important;
+  margin-bottom: 30px;
+}

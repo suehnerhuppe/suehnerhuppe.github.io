@@ -3,12 +3,13 @@
   z-index: 100000;
   color: white;
   background-color: #101010;
+  align-items: center;
 }
 
 .topnav-label {
-  padding: 20px;
   margin: 0;
-  font-size: 22px;
+  padding: 23px;
+  font-size: 16px;
   color: #7f7f7f;
   border-style: none;
   outline: none;
@@ -25,6 +26,11 @@
   outline: none;
 }
 
-.topnav-label:hover {
-  background-color: #282828;
+a, a:hover, a:visited {
+  text-decoration: none;
+  color: #7f7f7f;
+}
+
+label {
+  cursor: pointer;
 }

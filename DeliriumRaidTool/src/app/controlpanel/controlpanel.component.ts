@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 
 @Component({
   selector: 'app-controlpanel',
   templateUrl: './controlpanel.component.html',
-  styleUrls: ['./controlpanel.component.css']
+  styleUrls: ['./controlpanel.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class ControlpanelComponent implements OnInit {
 
@@ -14,10 +15,6 @@ export class ControlpanelComponent implements OnInit {
   ngOnInit(): void {
     console.log(location.pathname);
     this.selectedSite = location.pathname;
-  }
-
-  onClick(site: string): void {
-    this.selectedSite = site;
   }
 
   getLocation(): string {

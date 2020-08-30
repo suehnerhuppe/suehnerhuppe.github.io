@@ -1,14 +1,11 @@
 <div class="row">
   <div class="offset-md-2 col-md-8">
+    <nav mat-tab-nav-bar class="mat-elevation-z8" >
+      <a mat-tab-link label="Welcome" [active]="getLocation() === '/welcome'" routerLink="/welcome">Willkommen</a>
+      <a mat-tab-link label="Encounter" [active]="getLocation() === '/encounters'" routerLink="/encounters">Boss Planer</a>
+      <!--<a mat-tab-link label="Players" [active]="getLocation() === '/players'" routerLink="/players">Players</a>-->
+    </nav>
     <div class="card card-block">
-      <ul class="nav nav-pills nav-fill">
-        <a class="nav-item nav-link active"
-           [class.active]="getLocation() === '/encounters'"
-           routerLink="/encounters">Encounters</a>
-        <a class="nav-item nav-link active"
-           [class.active]="getLocation() === '/players'"
-           routerLink="/players">Players</a>
-      </ul>
       <div class="row">
         <div class="col-md-12">
           <router-outlet></router-outlet>
